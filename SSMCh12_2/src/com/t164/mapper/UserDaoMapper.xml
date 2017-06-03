@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace:配置接口的全路径 -->
+<mapper namespace="com.t164.dao.UserDao">
+	<select id="getUserByNameAndPwd" resultType="user">
+		SELECT
+		u.id,u.userCode,u.userName,u.userPassword,u.gender,u.birthday,u.phone,u.address,u.userRole,
+		u.createdBy,u.creationDate,u.modifyBy,u.modifyDate FROM
+		smbms_user AS u 
+		WHERE u.userName =#{name} and u.userPassword=#{pwd}
+	</select>
+</mapper>
