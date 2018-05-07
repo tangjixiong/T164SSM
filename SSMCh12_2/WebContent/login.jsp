@@ -4,7 +4,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>系统登录 - 超市订单管理系统</title>
+    <title>系统登录 - 超市订单管理系统2222</title>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/style.css" />
     <script type="text/javascript">
 	/* if(top.location!=self.location){
@@ -30,7 +30,7 @@
                 </div>	
 				<div class="subBtn">
 					
-                    <input type="submit" value="登录"/>
+                    <input type="submit" value="登LU"/>
                     <input type="reset" value="重置"/>
                 </div>	
 			</form>
